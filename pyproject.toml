@@ -1,0 +1,33 @@
+[project]
+name = "petal"
+version = "0.1.0"
+description = "Inference code for PETAL: Enlightening Photographic Style Transfer with a Self-Supervised Photographic Embedding"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "torchvision==0.23.0",
+    "numpy==2.2.6",
+    "Pillow==11.3.0",
+    "tqdm",
+    "kornia>=0.7",
+    "lpips>=0.1.4",
+    "opencv-python-headless>=4.9",
+    "scikit-image>=0.22",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu129" }
+torchaudio = { index = "pytorch-cu129" }
+torchvision = { index = "pytorch-cu129" }
+
+[tool.uv]
+# Script-based repository: the project itself is not a distributable package.
+package = false

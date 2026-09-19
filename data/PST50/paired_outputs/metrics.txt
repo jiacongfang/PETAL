@@ -1,0 +1,313 @@
+PST50 paired evaluation
+==================================================
+
+num_pairs: 50
+
+Per-image results:
+
+0001.png:
+  LPIPS: 0.1158
+  PSNR: 18.85 dB
+  SSIM: 0.8841
+  Histogram Correlation (RGB): 0.3127
+
+0002.png:
+  LPIPS: 0.0483
+  PSNR: 30.69 dB
+  SSIM: 0.9593
+  Histogram Correlation (RGB): 0.8215
+
+0003.png:
+  LPIPS: 0.2261
+  PSNR: 19.00 dB
+  SSIM: 0.9313
+  Histogram Correlation (RGB): 0.3207
+
+0004.png:
+  LPIPS: 0.0901
+  PSNR: 23.74 dB
+  SSIM: 0.9808
+  Histogram Correlation (RGB): 0.3576
+
+0005.png:
+  LPIPS: 0.1054
+  PSNR: 28.34 dB
+  SSIM: 0.9659
+  Histogram Correlation (RGB): 0.6744
+
+0006.png:
+  LPIPS: 0.0508
+  PSNR: 34.73 dB
+  SSIM: 0.9042
+  Histogram Correlation (RGB): 0.2663
+
+0007.png:
+  LPIPS: 0.0535
+  PSNR: 24.16 dB
+  SSIM: 0.9656
+  Histogram Correlation (RGB): 0.2145
+
+0008.png:
+  LPIPS: 0.0321
+  PSNR: 24.66 dB
+  SSIM: 0.9011
+  Histogram Correlation (RGB): 0.4572
+
+0009.png:
+  LPIPS: 0.1798
+  PSNR: 19.46 dB
+  SSIM: 0.9308
+  Histogram Correlation (RGB): 0.1915
+
+0010.png:
+  LPIPS: 0.0809
+  PSNR: 28.67 dB
+  SSIM: 0.9709
+  Histogram Correlation (RGB): 0.7023
+
+0011.png:
+  LPIPS: 0.1141
+  PSNR: 26.37 dB
+  SSIM: 0.9102
+  Histogram Correlation (RGB): 0.3943
+
+0012.png:
+  LPIPS: 0.0884
+  PSNR: 25.23 dB
+  SSIM: 0.9756
+  Histogram Correlation (RGB): 0.5646
+
+0013.png:
+  LPIPS: 0.1161
+  PSNR: 25.64 dB
+  SSIM: 0.9654
+  Histogram Correlation (RGB): 0.3970
+
+0014.png:
+  LPIPS: 0.0603
+  PSNR: 26.69 dB
+  SSIM: 0.9169
+  Histogram Correlation (RGB): 0.3775
+
+0015.png:
+  LPIPS: 0.0818
+  PSNR: 23.05 dB
+  SSIM: 0.9606
+  Histogram Correlation (RGB): 0.7789
+
+0016.png:
+  LPIPS: 0.0369
+  PSNR: 29.29 dB
+  SSIM: 0.9747
+  Histogram Correlation (RGB): 0.8018
+
+0017.png:
+  LPIPS: 0.0861
+  PSNR: 25.10 dB
+  SSIM: 0.9401
+  Histogram Correlation (RGB): 0.8050
+
+0018.png:
+  LPIPS: 0.1248
+  PSNR: 23.46 dB
+  SSIM: 0.7115
+  Histogram Correlation (RGB): 0.3145
+
+0019.png:
+  LPIPS: 0.2678
+  PSNR: 24.32 dB
+  SSIM: 0.9229
+  Histogram Correlation (RGB): 0.6975
+
+0020.png:
+  LPIPS: 0.0953
+  PSNR: 21.23 dB
+  SSIM: 0.9587
+  Histogram Correlation (RGB): 0.4926
+
+0021.png:
+  LPIPS: 0.0740
+  PSNR: 29.90 dB
+  SSIM: 0.9186
+  Histogram Correlation (RGB): 0.6910
+
+0022.png:
+  LPIPS: 0.0431
+  PSNR: 28.32 dB
+  SSIM: 0.9873
+  Histogram Correlation (RGB): 0.8114
+
+0023.png:
+  LPIPS: 0.0614
+  PSNR: 23.29 dB
+  SSIM: 0.9608
+  Histogram Correlation (RGB): 0.3740
+
+0024.png:
+  LPIPS: 0.1706
+  PSNR: 17.89 dB
+  SSIM: 0.7941
+  Histogram Correlation (RGB): 0.1178
+
+0025.png:
+  LPIPS: 0.0992
+  PSNR: 24.27 dB
+  SSIM: 0.9707
+  Histogram Correlation (RGB): 0.7672
+
+0026.png:
+  LPIPS: 0.0916
+  PSNR: 27.13 dB
+  SSIM: 0.9775
+  Histogram Correlation (RGB): 0.7364
+
+0027.png:
+  LPIPS: 0.0363
+  PSNR: 31.90 dB
+  SSIM: 0.9810
+  Histogram Correlation (RGB): 0.6667
+
+0028.png:
+  LPIPS: 0.0784
+  PSNR: 24.92 dB
+  SSIM: 0.9739
+  Histogram Correlation (RGB): 0.6985
+
+0029.png:
+  LPIPS: 0.1112
+  PSNR: 28.33 dB
+  SSIM: 0.9185
+  Histogram Correlation (RGB): 0.4955
+
+0030.png:
+  LPIPS: 0.1818
+  PSNR: 21.72 dB
+  SSIM: 0.9299
+  Histogram Correlation (RGB): 0.5078
+
+0031.png:
+  LPIPS: 0.0952
+  PSNR: 23.54 dB
+  SSIM: 0.9624
+  Histogram Correlation (RGB): 0.6550
+
+0032.png:
+  LPIPS: 0.1085
+  PSNR: 18.89 dB
+  SSIM: 0.8805
+  Histogram Correlation (RGB): 0.3544
+
+0033.png:
+  LPIPS: 0.1665
+  PSNR: 17.89 dB
+  SSIM: 0.8749
+  Histogram Correlation (RGB): 0.1721
+
+0034.png:
+  LPIPS: 0.0630
+  PSNR: 29.57 dB
+  SSIM: 0.9144
+  Histogram Correlation (RGB): 0.7714
+
+0035.png:
+  LPIPS: 0.0565
+  PSNR: 20.54 dB
+  SSIM: 0.9691
+  Histogram Correlation (RGB): 0.7620
+
+0036.png:
+  LPIPS: 0.0668
+  PSNR: 23.68 dB
+  SSIM: 0.9525
+  Histogram Correlation (RGB): 0.5643
+
+0037.png:
+  LPIPS: 0.0634
+  PSNR: 28.05 dB
+  SSIM: 0.9653
+  Histogram Correlation (RGB): 0.7665
+
+0038.png:
+  LPIPS: 0.0434
+  PSNR: 24.55 dB
+  SSIM: 0.9675
+  Histogram Correlation (RGB): 0.5948
+
+0039.png:
+  LPIPS: 0.1096
+  PSNR: 26.53 dB
+  SSIM: 0.9323
+  Histogram Correlation (RGB): 0.5337
+
+0040.png:
+  LPIPS: 0.0911
+  PSNR: 28.67 dB
+  SSIM: 0.9806
+  Histogram Correlation (RGB): 0.9274
+
+0041.png:
+  LPIPS: 0.0724
+  PSNR: 23.98 dB
+  SSIM: 0.9499
+  Histogram Correlation (RGB): 0.5057
+
+0042.png:
+  LPIPS: 0.2274
+  PSNR: 19.56 dB
+  SSIM: 0.8888
+  Histogram Correlation (RGB): 0.5899
+
+0043.png:
+  LPIPS: 0.0779
+  PSNR: 16.68 dB
+  SSIM: 0.8404
+  Histogram Correlation (RGB): -0.0272
+
+0044.png:
+  LPIPS: 0.0547
+  PSNR: 24.07 dB
+  SSIM: 0.8895
+  Histogram Correlation (RGB): 0.1119
+
+0045.png:
+  LPIPS: 0.0452
+  PSNR: 33.25 dB
+  SSIM: 0.9840
+  Histogram Correlation (RGB): 0.7292
+
+0046.png:
+  LPIPS: 0.0810
+  PSNR: 21.22 dB
+  SSIM: 0.9326
+  Histogram Correlation (RGB): 0.3619
+
+0047.png:
+  LPIPS: 0.1019
+  PSNR: 21.84 dB
+  SSIM: 0.9669
+  Histogram Correlation (RGB): 0.6074
+
+0048.png:
+  LPIPS: 0.0697
+  PSNR: 26.07 dB
+  SSIM: 0.9777
+  Histogram Correlation (RGB): 0.3968
+
+0049.png:
+  LPIPS: 0.1014
+  PSNR: 23.73 dB
+  SSIM: 0.9253
+  Histogram Correlation (RGB): 0.4265
+
+0050.png:
+  LPIPS: 0.1927
+  PSNR: 19.16 dB
+  SSIM: 0.8609
+  Histogram Correlation (RGB): 0.4927
+
+==================================================
+Averages:
+  LPIPS: 0.0978 (lower is better)
+  PSNR: 24.64 dB (higher is better)
+  SSIM: 0.9332 (higher is better)
+  Histogram Correlation (RGB): 0.5221 (higher is better)

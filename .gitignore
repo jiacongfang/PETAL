@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Model checkpoints (download with ./download_weights.sh)
+ckpts/*.pt
+
+# Inference and benchmark outputs (root only: data/test_pairs/outputs/ is tracked)
+/outputs/
+
+MODEL_CARD.md
+*.zip
+.DS_Store
+*.egg-info/
