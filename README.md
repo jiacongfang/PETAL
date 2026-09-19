@@ -95,32 +95,29 @@ The paired subset of the dataset is included under `./data/PST50`; see
 `data/PST50/README.md` for details and the upstream project for the full
 release.
 
+The repository ships the released PETAL predictions for the paired protocol in
+`./data/PST50/paired_outputs`, which reproduce the table below:
+
 ```bash
 uv run python benchmark_pst50.py \
     --pst50_root ./data/PST50 \
-    --output_dir ./outputs/pst50_paired
+    --pred_dir ./data/PST50/paired_outputs
 ```
 
-The script runs the paired protocol (`content_709` + `paired_style`) at the
-original image resolution and reports the metrics used by the paper's
-quantitative script: LPIPS (AlexNet), PSNR, SSIM and RGB histogram correlation
-against `paired_gt`. Per-image and average results are written to
-`<output_dir>/metrics.txt`.
+| Method | LPIPS ↓ | PSNR ↑ | SSIM ↑ | H-corr (RGB) ↑ |
+|---|---|---|---|---|
+| PETAL | 0.0978 | 24.64 | 0.9332 | 0.5221 |
+
+Omit `--pred_dir` to run the paired protocol (`content_709` + `paired_style`)
+yourself at the original image resolution, writing predictions to
+`--output_dir` (default `./outputs/pst50_paired`) first. Either way the script
+reports LPIPS (AlexNet), PSNR, SSIM and RGB histogram correlation against
+`paired_gt`, per image and averaged, in `<pred_dir>/metrics.txt`.
 
 Predictions must have the same resolution as `paired_gt`; the script raises an
 error otherwise. `--allow_gt_resize` opts into resizing the ground truth to the
 prediction size, in which case the metrics are computed at the prediction
 resolution and the report says so.
-
-To re-compute the metrics of an existing prediction directory (predictions
-named `{N}.png`) instead of running inference again:
-
-```bash
-uv run python benchmark_pst50.py --pst50_root ./data/PST50 --pred_dir ./outputs/pst50_paired
-```
-| Method | LPIPS ↓ | PSNR ↑ | SSIM ↑ | H-corr (RGB) ↑ |
-|---|---|---|---|---|
-| PETAL | 0.0978 | 24.64 | 0.9332 | 0.5221 |
 
 ## Opensource Plan
 
